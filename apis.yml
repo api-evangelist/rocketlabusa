@@ -1,8 +1,27 @@
 aid: rocketlabusa
-name: Rocketlabusa
-description: Rocketlabusa is a company surfaced as a portfolio company of khosla-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rocketlabusa.png
+name: Rocket Lab
+description: Rocket Lab (Rocket Lab Corporation, formerly Rocket Lab USA; Nasdaq RKLB) is an
+  American aerospace manufacturer and end-to-end space company founded in 2006 by Peter Beck. It
+  designs and launches the Electron small-lift orbital rocket, is developing the reusable Neutron
+  medium-lift vehicle, and builds the Photon spacecraft platform along with satellites, spacecraft
+  components, solar cells, reaction wheels, star trackers, separation systems and other space
+  systems. Rocket Lab operates launch complexes in Mahia, New Zealand and at Wallops Island,
+  Virginia, providing dedicated and rideshare launch services plus on-orbit management for
+  commercial, civil and national-security customers. It was added to the API Evangelist network
+  as a portfolio company of Khosla Ventures; this profile is enriched from public identity and
+  live domain probes only, as Rocket Lab publishes no public developer API surface.
 url: https://raw.githubusercontent.com/api-evangelist/rocketlabusa/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +31,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Aerospace
+- Space
+- Launch Services
+- Satellites
+- Spacecraft
+- Space Systems
+- Defense
+- Manufacturing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +49,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/rocketlabusa-domain-security.yml
 - type: Website
   url: https://www.rocketlabusa.com/
+- type: Website
+  url: https://rocketlabcorp.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
